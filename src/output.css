@@ -8,6 +8,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-red-500: oklch(63.7% 0.237 25.331);
+    --color-amber-50: oklch(98.7% 0.022 95.277);
     --color-amber-300: oklch(87.9% 0.169 91.605);
     --color-amber-400: oklch(82.8% 0.189 84.429);
     --color-amber-500: oklch(76.9% 0.188 70.08);
@@ -17,6 +18,8 @@
     --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
+    --text-2xl: 1.5rem;
+    --text-2xl--line-height: calc(2 / 1.5);
     --text-3xl: 1.875rem;
     --text-3xl--line-height: calc(2.25 / 1.875);
     --font-weight-bold: 700;
@@ -227,6 +230,9 @@
   .table {
     display: table;
   }
+  .h-\[0px\] {
+    height: 0px;
+  }
   .h-\[80px\] {
     height: 80px;
   }
@@ -239,11 +245,20 @@
   .h-\[300px\] {
     height: 300px;
   }
+  .h-\[370px\] {
+    height: 370px;
+  }
   .h-\[380px\] {
     height: 380px;
   }
+  .h-\[390px\] {
+    height: 390px;
+  }
   .h-\[400px\] {
     height: 400px;
+  }
+  .h-\[420px\] {
+    height: 420px;
   }
   .h-\[480px\] {
     height: 480px;
@@ -257,11 +272,23 @@
   .h-\[600px\] {
     height: 600px;
   }
+  .w-\[\%\] {
+    width: %;
+  }
   .w-\[0px\] {
     width: 0px;
   }
   .w-\[30px\] {
     width: 30px;
+  }
+  .w-\[80\%\] {
+    width: 80%;
+  }
+  .w-\[85\%\] {
+    width: 85%;
+  }
+  .w-\[90\%\] {
+    width: 90%;
   }
   .w-\[300px\] {
     width: 300px;
@@ -329,14 +356,29 @@
   .gap-\[10px\] {
     gap: 10px;
   }
+  .gap-\[20px\] {
+    gap: 20px;
+  }
   .gap-\[30px\] {
     gap: 30px;
   }
   .gap-\[40px\] {
     gap: 40px;
   }
+  .gap-y-\[10px\] {
+    row-gap: 10px;
+  }
+  .gap-y-\[16px\] {
+    row-gap: 16px;
+  }
+  .gap-y-\[20px\] {
+    row-gap: 20px;
+  }
   .rounded-\[15px\] {
     border-radius: 15px;
+  }
+  .rounded-\[20px\] {
+    border-radius: 20px;
   }
   .rounded-t {
     border-top-left-radius: 0.25rem;
@@ -358,6 +400,10 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-\[1px\] {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
   .border-b {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
@@ -366,14 +412,38 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 4px;
   }
+  .border-\[\#EAE9F2\] {
+    border-color: #EAE9F2;
+  }
   .border-indigo-500 {
     border-color: var(--color-indigo-500);
+  }
+  .bg-\[\#9F3919\] {
+    background-color: #9F3919;
   }
   .bg-\[\#5454D4\] {
     background-color: #5454D4;
   }
+  .bg-\[\#F7F7FB\] {
+    background-color: #F7F7FB;
+  }
+  .bg-\[\#F8F8F8\] {
+    background-color: #F8F8F8;
+  }
   .bg-\[\#FF7143\] {
     background-color: #FF7143;
+  }
+  .bg-\[wh\] {
+    background-color: wh;
+  }
+  .bg-\[whi\] {
+    background-color: whi;
+  }
+  .bg-\[white\] {
+    background-color: white;
+  }
+  .bg-amber-50 {
+    background-color: var(--color-amber-50);
   }
   .bg-amber-300 {
     background-color: var(--color-amber-300);
@@ -398,6 +468,9 @@
   }
   .px-\[10px\] {
     padding-inline: 10px;
+  }
+  .px-\[20px\] {
+    padding-inline: 20px;
   }
   .px-\[30px\] {
     padding-inline: 30px;
@@ -426,6 +499,10 @@
   .font-\[\'Inter\'\] {
     font-family: 'Inter';
   }
+  .text-2xl {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height));
+  }
   .text-3xl {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
@@ -438,6 +515,9 @@
   }
   .text-\[16px\] {
     font-size: 16px;
+  }
+  .text-\[18px\] {
+    font-size: 18px;
   }
   .text-\[19px\] {
     font-size: 19px;
@@ -463,8 +543,14 @@
   .text-\[30px\] {
     font-size: 30px;
   }
+  .text-\[36px\] {
+    font-size: 36px;
+  }
   .text-\[40px\] {
     font-size: 40px;
+  }
+  .text-\[46px\] {
+    font-size: 46px;
   }
   .text-\[50px\] {
     font-size: 50px;
@@ -479,8 +565,23 @@
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
+  .text-\[\#1D293F\] {
+    color: #1D293F;
+  }
   .text-\[\#1818b3\] {
     color: #1818b3;
+  }
+  .text-\[\#5454D4\] {
+    color: #5454D4;
+  }
+  .text-\[\#696871\] {
+    color: #696871;
+  }
+  .text-\[\#ffffff\] {
+    color: #ffffff;
+  }
+  .text-\[1\] {
+    color: 1;
   }
   .text-\[blu\] {
     color: blu;
