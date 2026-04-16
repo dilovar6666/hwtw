@@ -10,7 +10,9 @@
     --color-red-500: oklch(63.7% 0.237 25.331);
     --color-amber-300: oklch(87.9% 0.169 91.605);
     --color-amber-400: oklch(82.8% 0.189 84.429);
+    --color-amber-500: oklch(76.9% 0.188 70.08);
     --color-indigo-500: oklch(58.5% 0.233 277.117);
+    --color-gray-500: oklch(55.1% 0.027 264.364);
     --color-gray-900: oklch(21% 0.034 264.665);
     --color-white: #fff;
     --spacing: 0.25rem;
@@ -179,8 +181,14 @@
   .mt-\[70px\] {
     margin-top: 70px;
   }
+  .mt-\[90px\] {
+    margin-top: 90px;
+  }
   .mt-\[100px\] {
     margin-top: 100px;
+  }
+  .mt-\[120px\] {
+    margin-top: 120px;
   }
   .mt-\[500px\] {
     margin-top: 500px;
@@ -218,6 +226,9 @@
   .h-\[80px\] {
     height: 80px;
   }
+  .h-\[200p\] {
+    height: 200p;
+  }
   .h-\[200px\] {
     height: 200px;
   }
@@ -233,6 +244,9 @@
   .h-\[480px\] {
     height: 480px;
   }
+  .h-\[500px\] {
+    height: 500px;
+  }
   .h-\[580px\] {
     height: 580px;
   }
@@ -242,11 +256,17 @@
   .w-\[0px\] {
     width: 0px;
   }
+  .w-\[30px\] {
+    width: 30px;
+  }
   .w-\[300px\] {
     width: 300px;
   }
   .w-\[370px\] {
     width: 370px;
+  }
+  .w-\[390px\] {
+    width: 390px;
   }
   .w-\[400px\] {
     width: 400px;
@@ -256,6 +276,9 @@
   }
   .w-\[570px\] {
     width: 570px;
+  }
+  .max-w-\[12\] {
+    max-width: 12;
   }
   .max-w-\[125\] {
     max-width: 125;
@@ -332,6 +355,9 @@
   .bg-amber-400 {
     background-color: var(--color-amber-400);
   }
+  .bg-amber-500 {
+    background-color: var(--color-amber-500);
+  }
   .bg-red-500 {
     background-color: var(--color-red-500);
   }
@@ -367,6 +393,9 @@
   }
   .py-\[px\] {
     padding-block: px;
+  }
+  .text-center {
+    text-align: center;
   }
   .font-\[\'Inter\'\] {
     font-family: 'Inter';
@@ -408,6 +437,9 @@
   .text-\[30px\] {
     font-size: 30px;
   }
+  .text-\[40px\] {
+    font-size: 40px;
+  }
   .text-\[50px\] {
     font-size: 50px;
   }
@@ -438,6 +470,9 @@
   }
   .text-\[px\] {
     color: px;
+  }
+  .text-gray-500 {
+    color: var(--color-gray-500);
   }
   .text-gray-900 {
     color: var(--color-gray-900);
