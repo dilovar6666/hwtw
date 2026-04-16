@@ -7,6 +7,9 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-red-500: oklch(63.7% 0.237 25.331);
+    --color-indigo-500: oklch(58.5% 0.233 277.117);
+    --color-white: #fff;
     --text-3xl: 1.875rem;
     --text-3xl--line-height: calc(2.25 / 1.875);
     --font-weight-bold: 700;
@@ -190,9 +193,29 @@
   .gap-\[40px\] {
     gap: 40px;
   }
+  .rounded-\[15px\] {
+    border-radius: 15px;
+  }
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
+  }
+  .border-b {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 1px;
+  }
+  .border-b-4 {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 4px;
+  }
+  .border-indigo-500 {
+    border-color: var(--color-indigo-500);
+  }
+  .bg-\[\#FF7143\] {
+    background-color: #FF7143;
+  }
+  .bg-red-500 {
+    background-color: var(--color-red-500);
   }
   .p-\[20px\] {
     padding: 20px;
@@ -200,19 +223,55 @@
   .p-\[30px\] {
     padding: 30px;
   }
+  .px-\[0px\] {
+    padding-inline: 0px;
+  }
   .px-\[10px\] {
     padding-inline: 10px;
   }
+  .px-\[30px\] {
+    padding-inline: 30px;
+  }
+  .px-\[50px\] {
+    padding-inline: 50px;
+  }
+  .py-\[7px\] {
+    padding-block: 7px;
+  }
+  .py-\[10px\] {
+    padding-block: 10px;
+  }
   .py-\[15px\] {
     padding-block: 15px;
+  }
+  .py-\[20px\] {
+    padding-block: 20px;
+  }
+  .py-\[px\] {
+    padding-block: px;
   }
   .text-3xl {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
   }
+  .text-\[15px\] {
+    font-size: 15px;
+  }
+  .text-\[20px\] {
+    font-size: 20px;
+  }
+  .text-\[22px\] {
+    font-size: 22px;
+  }
+  .text-\[25px\] {
+    font-size: 25px;
+  }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
+  }
+  .text-white {
+    color: var(--color-white);
   }
   .underline {
     text-decoration-line: underline;
